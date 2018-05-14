@@ -57,14 +57,6 @@ repos() {
 	cd ~/repositories/$1
 }
 
-sub() {
-  open $1 -a "Sublime Text"
-}
-
-brack() {
-  open $1 -a "Brackets"
-}
-
 ?() {
 echo "****************************************"
 echo "*             Shortcuts                *"
@@ -72,8 +64,6 @@ echo "*--------------------------------------*"
 echo "* repos -> move to repositories folder *"
 echo "* home -> move to user home            *"
 echo "* lh -> ls -lhaG                       *"
-echo "* brack <arg> -> open in Brackets      *"
-echo "* sub <arg> -> open in Sublime Text    *"
 echo "*--------------------------------------*"
 echo "*             Folder nav               *"
 echo "*--------------------------------------*"
